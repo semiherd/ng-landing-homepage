@@ -1,9 +1,11 @@
 {
   "version": 2,
+  "buildCommand": "cd frontend && npm install && npm run vercel-build",
+  "outputDirectory": "frontend/dist/travel-frontend",
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/frontend/dist/travel-frontend/index.html"
+      "dest": "/index.html"
     }
   ]
 }
