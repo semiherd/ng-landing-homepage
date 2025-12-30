@@ -5,6 +5,7 @@
   "scripts": {
     "start": "ng serve",
     "build": "ng build",
+    "vercel build":"npm run build",
     "build:ssr": "ng build && ng run travel-frontend:server",
     "serve:ssr": "node dist/travel-frontend/server/main.js",
     "lint": "ng lint"
