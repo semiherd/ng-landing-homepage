@@ -1,0 +1,15 @@
+.review {
+    padding: 1.25rem;
+    border-radius: 1rem;
+    background: var(--review-card-bg);
+    box-shadow: var(--shadow-soft);
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid white;
+    transition: all 200ms ease-in-out;
+    will-change: transform;
+}
+.review:hover{
+    transform: translateY(-2px) scale(1.05) rotateX(-10deg) rotateY(-0deg) rotateZ(0deg);
+}

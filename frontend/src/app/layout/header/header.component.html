@@ -1,0 +1,6 @@
+<header [class.scrolled]="isScrolled">
+    <div class="logo">✈️</div>
+    <nav>
+        <a *ngFor="let i of items" href="#{{i.id}}">{{i.label}}</a>
+    </nav>
+</header>

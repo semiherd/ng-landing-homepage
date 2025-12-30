@@ -1,0 +1,26 @@
+.filters {
+  display: flex;
+  gap: .75rem;
+  flex-wrap: wrap;
+}
+
+.filter {
+  padding: .5rem .9rem;
+  border-radius: 999px;
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--muted);
+  cursor: pointer;
+  transition: all .25s ease;
+}
+
+.filter:hover {
+  color: var(--text);
+  border-color: var(--accent);
+}
+
+.filter.active {
+  background: rgba(56,189,248,.15);
+  border-color: var(--accent);
+  color: var(--text);
+}

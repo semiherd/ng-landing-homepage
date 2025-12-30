@@ -1,0 +1,32 @@
+:root {
+  --bg: #0f172a;
+  --surface: #111827;
+  --card: rgb(228, 217, 234);
+  --border: rgba(255, 255, 255, 0.12);
+  --text: #303235;
+  --muted: #9ca3af;
+  --accent: #38bdf8;
+  --radius: 14px;
+  --shadow-sm: 0 6px 18px rgba(0,0,0,.25);
+  --shadow-lg: 0 20px 40px rgba(0,0,0,.35);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont;
+  background: linear-gradient(180deg, #d3d6e4, #d9dad5 40%, #020617);
+  color: var(--text);
+  line-height: 1.6;
+  font-size:16px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

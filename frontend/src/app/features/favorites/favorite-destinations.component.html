@@ -1,0 +1,12 @@
+<section class="section">
+  <h2>Popular Destinations</h2>
+
+  <div class="grid">
+    <app-destination-card
+      *ngFor="let d of destinations"
+      [name]="d.name"
+      [country]="d.country"
+      [image]="d.image"
+    />
+  </div>
+</section>

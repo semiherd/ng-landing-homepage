@@ -1,0 +1,12 @@
+<section class="section">
+  <h2>Traveler Reviews</h2>
+
+  <div class="list">
+    <app-review-card
+      *ngFor="let r of reviews"
+      [author]="r.author"
+      [rating]="r.rating"
+      [text]="r.text"
+    />
+  </div>
+</section>

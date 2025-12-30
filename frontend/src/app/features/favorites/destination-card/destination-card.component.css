@@ -1,0 +1,37 @@
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition:
+    transform .35s cubic-bezier(.2,.8,.2,1),
+    box-shadow .35s ease;
+  will-change: transform;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-lg);
+}
+
+.card .image {
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-content {
+  margin-left: 2%;
+  padding: 1rem 1.25rem;
+  letter-spacing: 0.25rem;
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.card p {
+  color: #5a4444;
+  font-size: .9rem;
+}
